@@ -8,15 +8,9 @@ Clone the repo using command:
 
 Install all the project dependencies using command:
 
-`pip install -r requirements.txt`
+`cd ml_assg_1 && pip install -r requirements.txt`
 
-### Run project
-
-Then you can run jupyter notebook in the current project using:
-
-`jupyter notebook .`
-
-Once notebook is opened, you can navigate to `src` directory and find two notebooks `classification.ipynb` and `regression.ipynb`. 
+### Download and prepare dataset
 
 In order to run the classification notebook you need classification dataset. The dataset can be obtained by running following command:
 
@@ -34,6 +28,14 @@ In order to run the regression notebook you need regression dataset. The dataset
 You can unzip the dataset using command:
 
 `unzip bitrate_prediction.zip -d src/bitrate_prediction`
+
+### Run Notebooks
+
+Now you can run jupyter notebook in the current project using:
+
+`jupyter notebook .`
+
+Once notebook is opened, you can navigate to `src` directory and find two notebooks `classification.ipynb` and `regression.ipynb`. Just click on desired notebook and run. Enjoy! 
 
 
 **P.S:** This code has been tested with `python 3.8`
